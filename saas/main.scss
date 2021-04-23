@@ -1,0 +1,23 @@
+@import '__variables';
+@import '__left';
+@import '__right';
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 100%;
+    width: 1050px;
+    height: 1480px;
+    overflow: hidden;
+    
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    font-family: $font-text;
+}
