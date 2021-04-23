@@ -54,9 +54,8 @@
             justify-content: space-between;
             margin-top: 0.4rem;
 
-            progress{
-                background-color: $color-grey-lt;
-                color: white;
+            i{
+                margin-right: 2rem;
             }
         }
     }
@@ -71,6 +70,13 @@
                 color: white;
             }
         }
+    }
+
+    .competences, .soft{
+        li{
+            list-style-position: inside;
+        }
+    
     }
 }
 

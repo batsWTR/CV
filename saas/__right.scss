@@ -8,6 +8,9 @@
     padding: 2rem 1.5rem;
     font-size: $size-4;
     color: $color-grey;
+    li{
+        list-style-position: inside;
+    }
 
     .nom{
         font-family: $font-title;
