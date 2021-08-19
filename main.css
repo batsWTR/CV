@@ -6,8 +6,52 @@ strong {
   color: #0025c6;
 }
 
+.fa-phone-alt {
+  color: #6666ff;
+}
+
+.fa-at {
+  color: white;
+}
+
+.fa-map-marker-alt {
+  color: #ff6666;
+}
+
+.fa-github {
+  color: black;
+}
+
+.fa-linkedin-in {
+  color: #0e76a8;
+}
+
+.fa-blog {
+  color: purple;
+}
+
+.fa-html5 {
+  color: #f06529;
+}
+
+.fa-css3-alt {
+  color: #2965f1;
+}
+
+.fa-js {
+  color: #f0db4f;
+}
+
+.fa-python {
+  color: #ffd43b;
+}
+
+.fa-cuttlefish {
+  color: #bb29bb;
+}
+
 .left {
-  background-color: #787878;
+  background-color: #9e9e9e;
   color: white;
   width: 40%;
   padding: 1rem;
@@ -134,7 +178,7 @@ strong {
   width: 60%;
   padding: 2rem 1.5rem;
   font-size: 1rem;
-  color: #787878;
+  color: #9e9e9e;
 }
 
 .right li {
@@ -162,7 +206,7 @@ strong {
 }
 
 .box-right {
-  border: 1px solid #787878;
+  border: 1px solid #9e9e9e;
   padding: 0.6rem;
   display: inline-block;
 }

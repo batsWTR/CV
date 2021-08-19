@@ -1,8 +1,9 @@
 
 
 
+//background left
+$color-grey: lighten(#919191,5);
 
-$color-grey: darken(#919191,10);
 $color-grey-lt: #b6b6b6;
 $color-blue: #001260;
 $color-blue-lt: lighten(#001260, 20);
@@ -22,4 +23,43 @@ $font-text: 'Montserrat', sans-serif;
 
 strong{
     color: $color-blue-lt;
+}
+
+// couleurs
+.fa-phone-alt{
+    color: lighten(blue,20);
+}
+.fa-at{
+    color: white;
+}
+.fa-map-marker-alt{
+    color: lighten(red,20);
+}
+
+
+.fa-github{
+    color: black;
+}
+.fa-linkedin-in{
+    color: #0e76a8;
+}
+.fa-blog{
+    color: purple;
+}
+
+
+.fa-html5{
+    color: #f06529;
+}
+.fa-css3-alt{
+    color: #2965f1 ;
+}
+.fa-js{
+    color: #f0db4f;
+}
+.fa-python{
+    color: #ffd43b;
+}
+.fa-cuttlefish{
+    color: #bb29bb;
 }
