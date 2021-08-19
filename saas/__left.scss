@@ -10,9 +10,9 @@
     padding: 1rem;
     font-size: $size-4;
     .photo{
-        width: 8rem;
-        height: 8rem;
-        margin: 2rem auto;
+        width: 10rem;
+        height: 10rem;
+        margin: 0.2rem auto;
         background-color: white;
         border-radius: 50%;
         overflow: hidden;
@@ -36,11 +36,11 @@
     }
     
     .reseau{
-        margin-top: 2rem;
+        margin-top: 0.8rem;
         ul{
             list-style: none;
             li{
-                margin: 1rem 0;
+                margin: 0.6rem 0;
                 span{
                     margin-left: 1rem;
                 }
@@ -52,7 +52,7 @@
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            margin-top: 0.4rem;
+            margin-top: 0.2rem;
 
             i{
                 margin-right: 2rem;
@@ -85,7 +85,7 @@
 .title-left{
     display: flex;
     flex-direction: row;
-    margin-bottom: 1rem;
+    margin-bottom: 0.4rem;
     h3{
         flex-shrink: 0;
     }

@@ -10,11 +10,12 @@
     color: $color-grey;
     li{
         list-style-position: inside;
+        line-height: 2rem;
     }
 
     .nom{
         font-family: $font-title;
-        padding-bottom: 2rem;
+        padding-bottom: 1,6rem;
         h2{
             color: $color-blue;
             font-size: $size-2;
@@ -24,7 +25,8 @@
             font-size: $size-1;
         }
         h3{
-            background: linear-gradient(to right,$color-blue-lt,rgb(11, 211, 11));
+            margin-top: 1.8rem;
+            background: linear-gradient(to right,$color-blue-lt,#41b883);
             background-clip: text;
             -webkit-text-fill-color: transparent;
             font-size: $size-3;
