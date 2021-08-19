@@ -24,7 +24,9 @@
             font-size: $size-1;
         }
         h3{
-            color: $color-blue-lt;
+            background: linear-gradient(to right,$color-blue-lt,rgb(11, 211, 11));
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
             font-size: $size-3;
         }
     }
