@@ -7,7 +7,7 @@
     width: 60%;
     padding: 2rem 1.5rem;
     font-size: $size-4;
-    color: $color-grey;
+    color: darken($color-grey,25);
     li{
         list-style-position: inside;
         line-height: 2rem;
