@@ -46,14 +46,17 @@
         }
     }
     .language{
-        li{
+        ul{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            margin-top: 0.2rem;
+            flex-wrap: wrap;
+            margin-top: 1.6rem;
+            list-style: none;
 
-            i{
-                margin-right: 2rem;
+            img{
+                width: 60px;
+                height: auto;
             }
         }
     }
