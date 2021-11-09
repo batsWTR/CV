@@ -30,13 +30,22 @@
             background-clip: text;
             -webkit-text-fill-color: transparent;
             font-size: $size-3;
+            span{
+                position: relative;
+                display: inline-block;
+                top: 3px;
+                margin: 0 2px;
+                transform: rotate(-10deg);
+            }
         }
     }
 
 }
 
 
-
+.insideUl{
+    margin-left: 4px;
+}
 
 
 .box-right{
