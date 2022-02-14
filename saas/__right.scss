@@ -27,7 +27,8 @@
         }
         h3{
             margin-top: .8rem;
-            background: linear-gradient(to right,$color-blue-lt,#41b883);
+            background: url('./images/back-title.jpg') no-repeat center;
+            background-size: cover;
             background-clip: text;
             -webkit-text-fill-color: transparent;
             font-size: $size-big;
