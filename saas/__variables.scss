@@ -26,9 +26,7 @@ a{
 }
 
 strong{
-    background: linear-gradient(to right bottom,$color-blue-lt,#41b883);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: $color-blue-lt;
     margin-right: 1rem;
 }
 em{
