@@ -5,7 +5,7 @@
     background-color: $color-grey;
     color: white;
     width: 40%;
-    padding-left: 1rem;
+    padding-left: .2rem;
     padding-right: .2rem;
     font-size: $size-text;
     .photo{
@@ -15,7 +15,7 @@
         background-color: white;
         border-radius: 50%;
         overflow: hidden;
-        box-shadow: 4px 4px 6px 10px darken($color-grey, 20);
+        box-shadow: 4px 4px 6px 10px darken($color-grey, 35);
 
         img{
             width: 100%;
@@ -53,7 +53,8 @@
             flex-direction: row;
             justify-content: space-between;
             flex-wrap: wrap;
-            margin-top: 1.4rem;
+            margin-top: .4rem;
+            padding: 1rem;
             gap:12px;
             list-style: none;
 
@@ -109,6 +110,7 @@
 // encadrement menus
 .box-left{
     border: 1px solid white;
+    border-radius: 5px;
     padding: 0.5rem;
 }
 

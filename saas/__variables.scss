@@ -9,7 +9,7 @@ $color-blue: #001260;
 $color-blue-lt: lighten(#001260, 20);
 
 $size-big: 40px;
-$size-md: 26px;
+$size-md: 32px;
 $size-title: 2.2mm;
 $size-text: 12px;
 
@@ -26,7 +26,9 @@ a{
 }
 
 strong{
-    color: $color-blue-lt;
+    background: linear-gradient(to right bottom,$color-blue-lt,#41b883);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-right: 1rem;
 }
 em{
