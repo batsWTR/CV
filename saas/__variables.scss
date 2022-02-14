@@ -8,17 +8,17 @@ $color-grey-lt: #b6b6b6;
 $color-blue: #001260;
 $color-blue-lt: lighten(#001260, 20);
 
-$size-1:2.2rem;
-$size-2: 2rem;
-$size-3: 2.2rem;
-$size-4: 1rem;
+$size-big: 40px;
+$size-md: 26px;
+$size-title: 2.2mm;
+$size-text: 12px;
 
 $font-title: 'Antonio', sans-serif;
 $font-text: 'Montserrat', sans-serif;
 
 // espace entre blocs
 .m-block{
-    margin-top: 2rem;
+    margin-top: 1.6rem;
 }
 a{
     color: inherit;

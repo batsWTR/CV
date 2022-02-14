@@ -5,12 +5,12 @@
 .right{
     background-color: white;
     width: 60%;
-    padding: 2rem 1.5rem;
-    font-size: $size-4;
+    padding-left: 1rem;
+    font-size: $size-text;
     color: darken($color-grey,25);
     li{
         list-style-position: inside;
-        line-height: 2rem;
+        line-height: 1.6rem;
     }
 
     .nom{
@@ -18,24 +18,38 @@
         padding-bottom: 1,6rem;
         h2{
             color: $color-blue;
-            font-size: $size-2;
+            font-size: $size-md;
         }
         h1{
             color: $color-grey-lt;
-            font-size: $size-1;
+            font-size: $size-md;
+            margin-left: 10px;
         }
         h3{
             margin-top: 1.8rem;
             background: linear-gradient(to right,$color-blue-lt,#41b883);
             background-clip: text;
             -webkit-text-fill-color: transparent;
-            font-size: $size-3;
+            font-size: $size-big;
             span{
                 position: relative;
                 display: inline-block;
                 top: 3px;
                 margin: 0 2px;
                 transform: rotate(-10deg);
+            }
+        }
+        &-title{
+            display: flex;
+            justify-content: space-between;
+            .qr{
+                width: 60px;
+                height: 60px;
+                margin: 12px;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
             }
         }
     }
